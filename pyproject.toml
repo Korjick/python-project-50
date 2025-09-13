@@ -10,7 +10,7 @@ dependencies = [
     "pyyaml>=6.0.0",
     "pytest>=8.4.2",
     "pytest-cov>=7.0.0",
-    "ruff>=0.13.0",
+    "ruff==0.9.7",
 ]
 
 [build-system]
