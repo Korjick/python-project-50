@@ -1,6 +1,6 @@
 from typing import Any, List
 
-from gendiff.diff_builder import DiffNode, DiffType
+from gendiff.scripts.diff_builder import DiffNode, DiffType
 
 INDENT_PER_LEVEL = 4
 SYMBOL_INDENT_OFFSET = 2

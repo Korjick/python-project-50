@@ -1,9 +1,9 @@
-from gendiff.diff_builder import build_diff
+from gendiff.scripts.diff_builder import build_diff
 from gendiff.formatters import FormatName
 from gendiff.formatters.jsn import format_json
 from gendiff.formatters.plain import format_plain
 from gendiff.formatters.stylish import format_stylish
-from gendiff.parser import parse_file
+from gendiff.scripts.parser import parse_file
 
 
 def generate_diff(first_file_path: str, second_file_path: str,

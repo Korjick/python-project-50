@@ -1,7 +1,7 @@
 import json
 from typing import Dict, List
 
-from gendiff.diff_builder import DiffNode, DiffType
+from gendiff.scripts.diff_builder import DiffNode, DiffType
 
 
 def _format_json(tree: List[DiffNode]) -> Dict[str, dict]:
